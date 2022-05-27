@@ -9,8 +9,9 @@
 
   - role: example
 
-  # - role: net
-  # - role: get Foreman installer
+  - role: net
+
+  - role: get Foreman installer
     # tags: init, never
 
   # - role: install Foreman

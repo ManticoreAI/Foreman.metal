@@ -4,7 +4,8 @@
     gather_subset:
       - network
 
-- hostname:
+- name: set hostname
+  hostname:
     name: '{{fqdn}}'
     # use: redhat
   become: yes
