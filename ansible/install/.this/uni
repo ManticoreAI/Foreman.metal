@@ -9,7 +9,7 @@
 
   - role: example
 
-  - role: net
+  # - role: net
 
   - role: get Foreman installer
     # tags: init, never

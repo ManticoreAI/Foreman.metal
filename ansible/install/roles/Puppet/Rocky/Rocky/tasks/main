@@ -1,0 +1,6 @@
+---
+- name: Puppet Labs repository
+  dnf:
+    name: https://yum.puppet.com/puppet7-release-el-8.noarch.rpm
+    state: present
+  become: true
