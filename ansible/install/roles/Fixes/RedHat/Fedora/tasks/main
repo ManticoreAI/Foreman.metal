@@ -1,0 +1,13 @@
+---
+- debug:
+    msg: "Hello fedora!"
+
+# Not helping!
+# - name: Symlink mkdir to /bin for puppet
+#   ansible.builtin.file:
+#     src: /usr/bin/mkdir
+#     dest: /bin/mkdir
+#     owner: root
+#     group: root
+#     state: link
+#   become: true

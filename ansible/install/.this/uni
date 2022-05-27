@@ -7,14 +7,17 @@
   roles:
   - role: this
 
-  - role: dl
-    tags: init, never
+  - role: Fixes
 
-  - role: foreman-install
-    tags: init, never
+  # - role: net
+  - role: get Foreman installer
+    # tags: init, never
 
-  - role: config
-    tags: c, never
+  # - role: install Foreman
+  #   tags: init, never
+  #
+  # - role: config
+  #   tags: c, never
 
 
 # First run: 'ansible-playbook uni.yml --tags init'

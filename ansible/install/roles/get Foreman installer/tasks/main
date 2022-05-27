@@ -1,2 +1,5 @@
 ---
+- include_role:
+    name: Puppet
+
 - import_tasks: foreman-installer
