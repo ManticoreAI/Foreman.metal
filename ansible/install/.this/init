@@ -21,12 +21,12 @@ link_template(){
 
 
 main(){
-#  cd $this
+  cd $this
   copy_template
 #  future_set_host
   set_user
   link_template
-#  cd -
+  cd -
 }
 
 main
