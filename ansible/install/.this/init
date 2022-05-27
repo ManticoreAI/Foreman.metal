@@ -1,4 +1,4 @@
-this=ansible/.this
+this=ansible/install/.this
 
 copy_template(){
   cp test/inventory/hosts.template test/inventory/hosts
