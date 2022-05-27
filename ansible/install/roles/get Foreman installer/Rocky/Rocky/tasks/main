@@ -1,5 +1,4 @@
 ---
-
 - name: Foreman repositories
   dnf:
     name: https://yum.theforeman.org/releases/3.3/el8/x86_64/foreman-release.rpm
