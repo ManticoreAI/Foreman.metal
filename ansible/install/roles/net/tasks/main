@@ -1,0 +1,5 @@
+---
+- import_tasks: hosts
+- import_tasks: firewall
+- import_tasks: open-ports
+# - import_tasks: static_ip

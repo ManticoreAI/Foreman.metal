@@ -1,0 +1,6 @@
+---
+- name: Install Firewall
+  dnf:
+    name:
+      - firewalld
+    state: latest
